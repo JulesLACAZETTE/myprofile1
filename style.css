@@ -1,0 +1,382 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {font-family: 'Montserrat', sans-serif;}
+
+h2 {
+	color: rgb(11, 64, 84);
+	letter-spacing: 2px;
+	size: 15px;
+	}
+	
+h1 {font-size: xx-large;}
+
+body {background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.all {display: inline;
+justify-content: space-around;}
+
+div { text-align: center; 
+	align-content: right;}
+
+img.jules {width: 360px;
+	height: 400px;
+	clip-path:ellipse(45% 40%);}
+.jules-lacazette{
+width: 400px;
+height: 600px;
+background-color: rgb(160, 190, 200);
+padding: 30px ;                   
+margin: 5px; 
+margin-left: ;                           
+border-radius: 20px;                       
+box-shadow: 0 10px 30px rgba(100,0,0,.1);
+display: flex;   
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: space-around;
+}
+
+body div img {width: 300px;}
+
+
+section.first{display: flex;
+margin-top: 50px;}
+
+.intro{
+width: 600px;
+height: 230px;
+background-color: rgb(160, 190, 200);
+padding: 30px ;                        /* White background */
+margin: 5px;                            /* Internal space */
+border-radius: 20px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(100,0,0,.1);    /* Light shadow */
+font-size: 25px;
+}
+
+.jules1{
+background-image: url(https://i.goopics.net/r3xbyn.png);
+background-size: cover;
+padding: 30px ;                        /* White background */
+margin: 5px;                            /* Internal space */
+border-radius: 20px;                        /* Small radius */
+box-shadow: 0 20px 50px rgba(100,0,0,.1);    /* Light shadow */
+}
+
+section.second {display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: space-around;}
+.formation{
+width: 1075px;
+height: 300px;
+background-color: rgb(160, 190, 200);
+padding: 30px ;                   
+margin: 5px; 
+margin-left: ;                           
+border-radius: 20px;                       
+box-shadow: 0 30px 50px rgba(100,0,0,.1);
+display: flex;   
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: space-around;
+text-align: justify;
+}
+
+.expériences
+{
+width: 1075px;
+height: 300px;
+background-color: rgb(160, 190, 200);
+padding: 30px ;                   
+margin: 5px; 
+margin-left: ;                           
+border-radius: 20px;                       
+box-shadow: 0 30px 50px rgba(100,0,0,.1);
+display: flex;   
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: space-around;
+text-align: left;
+}
+
+.contact{
+width: 300px;
+height: auto;
+background-color: rgb(160, 190, 200);
+padding: 30px ;                   
+margin: 5px;                            
+border-radius: 20px;                       
+box-shadow: 0 10px 30px rgba(100,0,0,.1); 
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: space-around;
+}
+
+.contact2 {flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: space-around;
+text-align: justify;}
+
+img.ballon {
+	width: 110px;
+	height: 110px;
+}
+img.voyages {
+	width: 115px;
+	height: 115px;
+}
+img.manette {
+	width: 115px;
+	height: 115px;
+}
+
+.sport {display: flex;   
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: space-around;
+text-align: left;}
+
+.travel {display: flex;   
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: space-around;
+text-align: left;}
+
+.jeux {display: flex;   
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: space-around;
+text-align: left;}
+
+.passions {width: 700px;
+height: 300px;
+background-color: rgb(160, 190, 200);
+padding: 30px ;                   
+margin: 5px; 
+margin-left: ;                           
+border-radius: 20px;                       
+box-shadow: 0 30px 50px rgba(100,0,0,.1);
+display: flex;
+flex-direction: column;}
+
+.passions2 {display: flex;
+align-items: center;
+align-content: center;
+justify-content: space-around;}
+
+.fin {width: 700px;
+height: auto;
+background-color: rgb(160, 190, 200);
+padding: 30px ;                   
+margin: 5px; 
+margin-left: ;                           
+border-radius: 20px;                       
+box-shadow: 0 30px 50px rgba(100,0,0,.1);}
+
+section.last1 {
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: space-around;
+flex-direction: column;}
+
+section.last {display: flex;
+justify-content: space-around;}
+
+a{
+  color: white;
+  padding: 20px 30px;
+  background-color: #508A98;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  transition: background-color 0.4s;}
+
+a:hover{
+  background-color: #6fa5b3;
+}
+
+@media (max-width:670px){
+	section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+      }
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jules-lacazette{max-width: 275px;
+      height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 0px;
+     margin-bottom: 10px;
+    }
+    .intro{max-width: 275px ;
+    	height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .jules1{max-width: 275px;
+    	height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .formation{max-width: 275px ;
+    	height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .expériences{max-width: 275px ;
+    	height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .contact{max-width: 275px ;
+    	height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .passions{max-width: 275px;
+    	height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .fin{max-width: 275px;
+    	height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .all a {max-width: 60px;
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+    }
+}
+@media (max-width:1180px){
+  section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+      }
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jules-lacazette{width: 550px;
+      height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 0px;
+     margin-bottom: 10px;
+    }
+    .intro{width: 550px ;
+      height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .jules1{width: 550px;
+      height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .formation{width: 550px ;
+      height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .expériences{width: 550px ;
+      height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .contact{width: 550px ;
+      height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .passions{width: 550px;
+      height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .fin{width: 550px;
+      height: auto;
+     padding: 50px ;
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .all a {
+      display: flex;
+      float: left;
+      text-align: center;
+      margin: 10px;
+
+
+
